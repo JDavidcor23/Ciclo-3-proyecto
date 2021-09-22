@@ -1,5 +1,91 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
+:root {
+  --green: #2f7a2c;
+  --backgroud: #faf7ef;
+  --yellow: #f4a94d;
+  --letter: #eceeec;
+  --hueso: #faf7ee;
+  --verde: #2f7a2c;
+  --amarillo: #ffab49;
+  --gris-oscuro: #444444;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------Jorge-estilos-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*#team {
+  width: 100%;
+  min-width: 320px;
+}
+#team .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+#team .container .card {
+  width: 300px;
+  height: 370px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  box-shadow: 1px 6px 21px -1px #000000;
+  position: relative;
+  border-radius: 10px;
+  background: var(--green);
+}
+#team .container .card img {
+  width: 80px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  background-color: var(--green);
+}
+#team .container .card p {
+  color: var(--letter);
+  background: var(--green);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card a {
+  justify-self: center;
+  align-self: center;
+}
+
+.card p {
+  color: var(--letter);
+  font-weight: 600;
+  font-size: 20px;
+  background: var(--green);
+}
+.card p strong {
+  background: var(--green);
+  color: var(--letter);
+}
+.card a button {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--letter);
+  background: var(--yellow);
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  left: 45px;
+  top: 320px;
+  position: absolute;
+  transition: transform 0.2s;
+}
+.card a button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}*/
