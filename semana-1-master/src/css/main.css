@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --green: #2f7a2c;
+  --backgroud: #faf7ef;
+  --yellow: #f4a94d;
+  --letter: #eceeec;
+  --hueso: #faf7ee;
+  --verde: #2f7a2c;
+  --amarillo: #ffab49;
+  --gris-oscuro: #444444;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------Andrea-estilos-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+*,
+*:before,
+:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.nav {
+  position: relative;
+}
+.collapse {
+  position: absolute;
+  right: 10px;
+}
+.nav-item a {
+  color: var(--hueso);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  align-self: center;
+}
+
+.custom-toggler .navbar-toggler {
+  background-color: var(--hueso);
+  border-width: 5;
+}
+.carousel-inner div .img-1 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/min.jpg");
+  background-size: cover;
+  position: relative;
+}
+.carousel-inner div .img-2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/imagen-header-2-pequeña.jpg");
+  background-size: cover;
+  position: relative;
+}
+.carousel-inner div .img-3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/imagen-header-3-pequeña.jpg");
+  background-size: cover;
+  position: relative;
+}
+.carousel-inner div .img-1 span {
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  background-repeat: no-repeat;
+  top: 80px;
+  left: 100px;
+}
+header nav {
+  height: 50px;
+  position: relative;
+}
+header nav div a img {
+  height: 50px;
+  position: absolute;
+  top: -2px;
+  left: -10px;
+}
+@media (min-width: 400px) {
+  .carousel-inner div .img-1 span {
+    top: 110px;
+    left: 180px;
+  }
+}
+@media (min-width: 500px) {
+  .carousel-inner div .img-1 {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/min2.jpg");
+    background-size: cover;
+  }
+  .carousel-inner div .img-1 span {
+    width: 400px;
+    height: 100px;
+    top: 120px;
+    left: 160px;
+  }
+}
+@media (min-width: 600px) {
+  .carousel-inner div .img-1 span {
+    top: 120px;
+    left: 220px;
+  }
+}
+@media (min-width: 800px) {
+  .carousel-inner div .img-1 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/imagen-header.jpg");
+    background-size: cover;
+  }
+  .carousel-inner div .img-1 span {
+    opacity: 0;
+  }
+  .carousel-inner div .img-2 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/imagen-header-2.jpg");
+    background-size: cover;
+  }
+  .carousel-inner div .img-3 {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/imagen-header-3.jpg");
+    background-size: cover;
+  }
+}
