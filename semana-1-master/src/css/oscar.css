@@ -1,0 +1,80 @@
+:root {
+  --hueso: #faf7ee;
+  --verde: #2f7a2c;
+  --amarillo: #ffab49;
+  --gris-oscuro: #444444;
+}
+
+* {
+  font-family: sans-serif;
+  color: var(--hueso);
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+}
+
+footer {
+  width: 100%;
+  background: var(--verde);
+  padding: 0px;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+}
+
+.contenedor {
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor .col1 {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor .col1 p {
+  font-size: 1.2rem;
+  padding: 40px 0 0 0;
+}
+.contenedor .col2 h2 {
+  font-size: 1.6rem;
+}
+.contenedor .col2 ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 0;
+  list-style: none;
+  justify-content: center;
+}
+.contenedor .col2 ul a {
+  text-decoration: none;
+  margin: 10px;
+}
+.contenedor .col2 ul a li {
+  font-size: 1.2rem;
+}
+.contenedor .col3 {
+  align-items: center;
+}
+.contenedor .col3 h2,
+h3 {
+  font-size: 1.6rem;
+  padding: 5px;
+}
+.contenedor .col3 ul {
+  list-style: none;
+  padding: 0 0 0 5px;
+  margin: 0;
+}
+.contenedor .col3 ul li {
+  padding: 5px;
+}
+.contenedor .col1 .logo {
+  background-image: url("../img/logo-TTC-01.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 50px;
+}
