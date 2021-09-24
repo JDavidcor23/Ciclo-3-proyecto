@@ -2,40 +2,41 @@
 <html lang="en">
 
 <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-        <!--Tipos de letra desde google fonts-->
-        <!--Poppins-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <!--Tipos de letra desde google fonts-->
+    <!--Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
-        <!--Krub-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Krub&family=Poppins:wght@600&display=swap"
-            rel="stylesheet">
+    <!--Krub-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/andrea.css">
-        <link rel="stylesheet" href="css/oscar.css">
-        <link rel="stylesheet" href="css/carlos.css">
-        <link rel="stylesheet" href="css/jorge.css">
-        <title>Tu tienda cercana</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/andrea.css">
+    <link rel="stylesheet" href="css/oscar.css">
+    <link rel="stylesheet" href="css/carlos.css">
+    <link rel="stylesheet" href="css/jorge.css">
+    <title>Tu tienda cercana</title>
 </head>
 
 <body style="height: 2000px;">
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2f7a2c">
-            <div class="container-fluid" style="background-color: #2f7a2c">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img img class="d-inline-block align-top" src="./img/logo-TTC-01.svg" width="200">
+                    <img img class="d-inline-block align-top"
+                        src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/logo-TTC-01_saviwg.svg"
+                        width="200">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -53,7 +54,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 PRODUCTOS
                             </a>
-                            <ul class="dropdown-menu" style="background: #2f7a2c;" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #2f7a2c;">
                                 <li><a class="dropdown-item" href="#">FRUTAS</a></li>
                                 <li><a class="dropdown-item" href="#">VERDURAS</a></li>
                                 <li><a class="dropdown-item" href="#">CARNES</a></li>
@@ -63,55 +64,58 @@
                             <a class="nav-link" href="#">TIENDAS</a>
                         </li>
 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Busca tu producto preferido"
-                            aria-label="Buscar">
-                        <button class="btn" style="background-color: #ffab49" type="submit">Buscar</button>
-                    </form>
+                    <div class="forms">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Busca tu producto preferido"
+                                aria-label="Buscar">
+                            <button class="btn" style="background-color: #ffab49" type="submit">Buscar</button>
+                        </form>
+                    </div>
                 </div>
+
             </div>
         </nav>
-    </header>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/imagen-header_dk3kos.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289107/Tu%20Tienda%20Cercana/imagen-header-2_r1uzhj.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289107/Tu%20Tienda%20Cercana/imagen-header-3_j73x1z.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <!-- ------------------------------------------------------- -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="imagenes img-1">
-                    <span></span>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="imagenes img-2">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="imagenes img-3">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-        <!-- ------------------------------------------------------- -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </header>
     <section id="services"></section>
     <section id="news">
         <main class="contenido">
