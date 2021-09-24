@@ -11,6 +11,7 @@ let container
 
 describe('index.html', () => {
 <<<<<<< HEAD
+<<<<<<< HEAD
     beforeEach(() => {
       // Constructing a new JSDOM with this option is the key
       // to getting the code in the script tag to execute.
@@ -36,6 +37,8 @@ describe('index.html', () => {
         expect(container.querySelector('footer')).not.toBeNull()
       })
 =======
+=======
+>>>>>>> Jorge
   beforeEach(() => {
     // Constructing a new JSDOM with this option is the key
     // to getting the code in the script tag to execute.
@@ -100,6 +103,9 @@ describe('index.html', () => {
   it('check a services section class', () => {
     expect(container.querySelector('#services').className).toBe('services-section')
   })
+<<<<<<< HEAD
 >>>>>>> Andrea
+=======
+>>>>>>> Jorge
 
 })
