@@ -16,19 +16,21 @@ footer {
   width: 100%;
   background: var(--verde);
   padding: 0px;
-  justify-content: space-between;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   margin: auto;
 }
 
 .contenedor {
   width: 100%;
-  margin-left: 50px;
+  /* margin-left: 50px;
   margin-top: 10px;
   margin-right: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between;*/
+  flex-direction: column;
 }
 .contenedor .col1 {
   display: flex;
@@ -38,8 +40,11 @@ footer {
   font-size: 1.2rem;
   padding: 40px 0 0 0;
 }
+
 .contenedor .col2 h2 {
   font-size: 1.6rem;
+  display: inline-block;
+  padding: 5px;
 }
 .contenedor .col2 ul {
   display: flex;
@@ -58,10 +63,10 @@ footer {
 .contenedor .col3 {
   align-items: center;
 }
-.contenedor .col3 h2,
-h3 {
+.contenedor .col3 h2 {
   font-size: 1.6rem;
   padding: 5px;
+  display: inline-block;
 }
 .contenedor .col3 ul {
   list-style: none;
@@ -72,9 +77,44 @@ h3 {
   padding: 5px;
 }
 .contenedor .col1 .logo {
-  background-image: url("../img/logo-TTC-01.svg");
+  background-image: url("https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/logo-TTC-01_saviwg.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
   height: 50px;
+}
+@media (min-width: 900px) {
+  .contenedor .col2 h2 {
+    font-size: 1.6rem;
+    display: block;
+  }
+  .contenedor .col3 h2 {
+    font-size: 1.6rem;
+    padding: 5px;
+    display: block;
+  }
+  footer {
+    width: 100%;
+    background: var(--verde);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .contenedor .col1 {
+    margin: 10px;
+  }
+  .contenedor .col2 {
+    margin: 10px;
+  }
+  .contenedor .col3 {
+    margin: 10px;
+  }
 }

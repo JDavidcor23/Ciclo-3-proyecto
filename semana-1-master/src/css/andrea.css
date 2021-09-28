@@ -1,0 +1,24 @@
+nav {
+  background-color: #2f7a2c;
+}
+@media (max-width: 500px) {
+  nav {
+    height: 70px;
+  }
+  div nav div {
+    height: 50px;
+  }
+  .contenedor-carousel {
+    position: relative;
+  }
+  .contenedor-carousel #carouselExampleIndicators {
+    position: absolute;
+    top: 60px;
+  }
+  nav div a img {
+    width: 150px;
+  }
+  .contenedor-productos {
+    padding: 210px 0 0 0;
+  }
+}

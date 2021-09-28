@@ -4,50 +4,54 @@
   --amarillo: #ffab49;
   --gris-oscuro: #444444;
 }
-body {
-  font-family: "poppins", sans-serif;
-  padding-top: 0;
-  box-sizing: border-box;
-  margin: 0;
-  color: var(--hueso);
-  font-size: 1rem;
-}
-
 #news {
   width: 100%;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-self: center;
+  /* margin: 0 auto; */
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 #news .contenido {
-  width: 500px;
+  color: #faf7ee;
+  font-family: "poppins", sans-serif;
+  width: 310px;
+  max-width: 500px;
   border-radius: 10px;
   background: var(--verde);
   padding: 30px;
-  grid-column: 1/3;
   margin-top: 30px;
-  margin-left: 20px;
   box-shadow: 1px 6px 21px -1px #000000;
 }
 #news .contenido p {
-  padding: 10px;
+  padding: 5px;
 }
 .sidebar {
   width: 300px;
+  max-width: 500px;
+  font-family: "poppins", sans-serif;
+  color: #faf7ee;
   border-radius: 10px;
   padding: 30px;
-  height: 900px;
+  height: auto;
   margin-top: 30px;
   background: var(--verde);
   box-shadow: 1px 6px 21px -1px #000000;
 }
-.sidebar h1 {
+h2 {
   font-size: 1.4rem;
+  background: var(--amarillo);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .widget-1,
 .widget-2 {
+  width: 300px;
+  max-width: 500px;
+  color: #faf7ee;
+  font-family: "poppins", sans-serif;
   border-radius: 10px;
   height: auto;
   background: var(--verde);
@@ -55,17 +59,34 @@ body {
   box-shadow: 1px 6px 21px -1px #000000;
 }
 .widget-1 {
-  grid-column: 1/3;
-  margin-top: 40px;
-  margin-left: 20px;
-  width: 500px;
+  /* grid-column: 1/3; */
+  margin-top: 30px;
 }
 .widget-2 {
-  width: 300px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .widget-2 p {
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0;
+}
+@media (min-width: 600px) {
+  #news {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 700px) {
+  #news .contenido {
+    width: 500px;
+  }
+  .sidebar {
+    width: 500px;
+  }
+  .widget-1,
+  .widget-2 {
+    width: 500px;
+  }
 }

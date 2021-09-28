@@ -31,95 +31,142 @@
 
 <body style="height: 2000px;">
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2f7a2c">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img img class="d-inline-block align-top"
-                        src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/logo-TTC-01_saviwg.svg"
-                        width="200">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                        </li>
+        <div>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <div class="container-fluid" style="background:#2f7a2c;">
+                    <a class="navbar-brand" href="#">
+                        <img img class="d-inline-block align-top"
+                            src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/logo-TTC-01_saviwg.svg"
+                            width="200" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="background: #2f7a2c;
+                        padding: 10px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                            </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                PRODUCTOS
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #2f7a2c;">
-                                <li><a class="dropdown-item" href="#">FRUTAS</a></li>
-                                <li><a class="dropdown-item" href="#">VERDURAS</a></li>
-                                <li><a class="dropdown-item" href="#">CARNES</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">TIENDAS</a>
-                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PRODUCTOS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">FRUTAS</a></li>
+                                    <li><a class="dropdown-item" href="#">VERDURAS</a></li>
+                                    <li><a class="dropdown-item" href="#">CARNES</a></li>
+                                </ul>
+                            </li>
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BLOG</a>
-                        </li>
-                    </ul>
-                    <div class="forms">
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Busca tu producto preferido"
-                                aria-label="Buscar">
-                            <button class="btn" style="background-color: #ffab49" type="submit">Buscar</button>
-                        </form>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TIENDAS</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                            <div class="forms">
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search"
+                                        placeholder="Busca tu producto preferido" aria-label="Buscar" />
+                                    <button class="btn" style="background-color: #ffab49" type="submit">
+                                        Buscar
+                                    </button>
+                                </form>
+                            </div>
+                        </ul>
+
                     </div>
                 </div>
-
-            </div>
-        </nav>
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/imagen-header_dk3kos.jpg"
-                        class="d-block w-100" alt="...">
+            </nav>
+        </div>
+        <div class="contenedor-carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289107/Tu%20Tienda%20Cercana/imagen-header-2_r1uzhj.jpg"
-                        class="d-block w-100" alt="...">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289106/Tu%20Tienda%20Cercana/imagen-header_dk3kos.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289107/Tu%20Tienda%20Cercana/imagen-header-2_r1uzhj.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289107/Tu%20Tienda%20Cercana/imagen-header-3_j73x1z.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://res.cloudinary.com/dgjrfgl2e/image/upload/v1632289107/Tu%20Tienda%20Cercana/imagen-header-3_j73x1z.jpg"
-                        class="d-block w-100" alt="...">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </header>
-    <section id="services"></section>
+    <div class="contenedor-productos">
+        <section id="productos">
+            <h2>Productos</h2>
+            <section class="container">
+                <article class="tarjetas tarjetas-1">
+                    <div class="contenedor-img">
+                        <img class="carne imagen" src="https://i.ibb.co/Ms1V20q/carne.png" alt="carne">
+                    </div>
+                    <div class="padre_p">
+                        <p>Carnes</p>
+                    </div>
+
+                    <a href="#">
+                        <button>ir</button>
+                    </a>
+                </article>
+                <article class="tarjetas tarjetas-2">
+                    <div class="contenedor-img">
+                        <img class="imagenes" src="https://i.ibb.co/thqvtsh/frutas.png" alt="frutas">
+                    </div>
+                    <div class="padre_p">
+                        <p>Frutas</p>
+                    </div>
+
+                    <a href="#">
+                        <button>ir</button>
+                    </a>
+                </article>
+                <article class="tarjetas tarjetas-3">
+                    <div class="contenedor-img">
+                        <img class="imagenes" src="https://i.ibb.co/wWWZyjV/vegetales.png" alt="vegetales">
+                    </div>
+                    <div class="padre_p">
+                        <p>Vegetales</p>
+                    </div>
+                    <a href="#">
+                        <button>ir</button>
+                    </a>
+                </article>
+            </section>
+        </section>
+    </div>
     <section id="news">
         <main class="contenido">
-            <h1>Nuestro Blog Saludable</h1>
+            <h2>Nuestro Blog Saludable</h2>
             <p>
                 Muchos creemos que llevar una vida saludable, una dieta sana y una rutina de ejercicios es cada vez más
                 difícil con lo demandante que se ha vuelto nuestra sociedad. Las largas jornadas laborales, el estrés
@@ -156,7 +203,7 @@
             </p>
         </main>
         <aside class="sidebar">
-            <h1>Blog Recomendado</h1>
+            <h2>Blog Recomendado</h2>
             <h2>Adelgaza con Susi</h2>
             <p>Susi es dietista y por su experiencia con el manejo del sobrepeso decidió desarrollar este blog para
                 aportar a su comunidad de lectores recetas y menús nutritivos para perder peso. La autora admite que
@@ -174,7 +221,7 @@
         </aside>
         <div class="widget-1">
 
-            <h1>Diferencias entre fruta y verdura</h1>
+            <h2>Diferencias entre fruta y verdura</h2>
             <p> Antes de explicar cuales son las diferencias entre frutas y verduras, lo primero que hay quedecir es que
                 no son términos científicos. Fruta y verdura podríamos decir que es una terminología coloquial.</p>
             <p>
@@ -201,7 +248,7 @@
                 considera verdura.</p>
         </div>
         <div class="widget-2">
-            <h1>Beneficios de las Frutas</h1>
+            <h2>Beneficios de las Frutas</h2>
             Las frutas y verduras son esenciales para cubrir los requerimientos nutricionales de nuestro
             organismo
             debido a su alto contenido en:
@@ -230,7 +277,6 @@
                 <p class="ultima">Teléfono: <strong> +57 400789236 </strong> </p>
                 <a href="">
                     <button>ir</button>
-                </a>
                 </a>
             </article>
             <article class="card card-2">
@@ -277,7 +323,7 @@
 
             <div class="col2">
 
-                <h2>Mapa del sitio</h2>
+                <h2 class="titulo">Mapa del sitio</h2>
                 <ul>
                     <a href="">
                         <li>Inicio</li>
@@ -297,9 +343,7 @@
 
             <div class="col3">
 
-                <h2>Acerca de nosotros </h2>
-
-                <h3>Grupo 2- Equipo 1</h3>
+                <h2 class="titulo">Acerca de nosotros: Grupo 2- Equipo 1</h2>
                 <h3>Contacto</h3>
                 <ul>
                     <li>jorgedavid23diaz@gmail.com</li>

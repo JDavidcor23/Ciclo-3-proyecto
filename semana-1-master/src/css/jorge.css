@@ -112,3 +112,103 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+/*----------------------------------------------------------------------------------------------------*/
+#productos h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--hueso);
+  width: 200px;
+  height: 50px;
+  padding-top: 8px;
+  background: var(--yellow);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+#productos {
+  width: 100%;
+  min-width: 320px;
+}
+
+#productos .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+#productos .container .tarjetas {
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  box-shadow: 1px 6px 21px -1px #000000;
+  position: relative;
+  border-radius: 10px;
+  background: var(--green);
+}
+.contenedor-img {
+  top: 10px;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: -1px;
+  background: var(--hueso);
+}
+
+#productos .container .tarjetas div .imagenes {
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+#productos .container .tarjetas div .carne {
+  height: 200px;
+  margin: 0 0 0 30px;
+}
+
+.tarjetas a {
+  justify-self: center;
+  align-self: center;
+}
+.padre_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.tarjetas .padre_p p {
+  color: var(--gris-oscuro);
+  font-weight: 600;
+  font-size: 1.5rem;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tarjetas a button {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--letter);
+  background: var(--yellow);
+  border-radius: 30px;
+  width: 200px;
+  height: 40px;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  left: 45px;
+  top: 200px;
+  position: absolute;
+  transition: transform 0.2s;
+}
+
+.tarjetas a button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
