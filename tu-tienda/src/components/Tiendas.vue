@@ -46,7 +46,7 @@
     </section>
 </template>
 <script>
-    
+
 </script>
 <style>
     :root {

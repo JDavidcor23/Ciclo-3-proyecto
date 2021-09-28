@@ -10,7 +10,7 @@
                 <div class="padre_p">
                   <p>Carnes</p>
                 </div>
-                
+
                 <a href="#">
                     <button>ir</button>
                 </a>
@@ -22,7 +22,7 @@
                 <div class="padre_p">
                   <p>Frutas</p>
                 </div>
-                
+
                 <a href="#">
                     <button>ir</button>
                 </a>
@@ -136,7 +136,6 @@ export default {
   margin: 0 auto;
   text-align: center;
 }
-
 
 .tarjetas a button {
   text-decoration: none;

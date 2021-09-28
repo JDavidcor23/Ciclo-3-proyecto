@@ -41,16 +41,13 @@
 
                 </ul>
 
-
             </div>
-
-
 
         </div>
     </footer>
 </template>
 <script>
-    
+
 </script>
 <style>
     :root {

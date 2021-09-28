@@ -19,7 +19,6 @@ import Tiendas from './components/Tiendas.vue'
 import Pie from './components/Pie.vue'
 import Blog from './components/Blog.vue'
 
-
 export default {
   name: 'App',
   components: {
@@ -31,8 +30,8 @@ export default {
     Pie,
     Blog
 
-    },
-    News
+  },
+  News
 }
 </script>
 

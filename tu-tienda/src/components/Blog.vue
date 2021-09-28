@@ -20,4 +20,3 @@ export default {
   name: 'Blog'
 }
 </script>
-

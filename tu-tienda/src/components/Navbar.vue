@@ -82,7 +82,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 style="margin-left: 10px"
-              
+
               >
                 ACCEDER
               </button>
@@ -96,7 +96,7 @@
                   </button>
                 </li>
               </ul>
-          
+
           </div>
         </div>
       </div>
@@ -104,12 +104,10 @@
   </div>
 </template>
 
-
-
 <script>
 export default {
-  name: "Navbar",
-};
+  name: 'Navbar'
+}
 </script>
 
 <style>
