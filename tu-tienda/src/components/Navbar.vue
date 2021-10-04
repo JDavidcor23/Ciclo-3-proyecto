@@ -22,7 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse justify-content"
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -30,30 +30,12 @@
               <a class="nav-link active" aria-current="page" href="#">INICIO</a>
             </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PRODUCTOS
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">FRUTAS</a></li>
-                <li><a class="dropdown-item" href="#">VERDURAS</a></li>
-                <li><a class="dropdown-item" href="#">CARNES</a></li>
-              </ul>
+            <li class="nav-item">
+              <a> <router-link to="/productos">PRODUCTOS</router-link></a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">TIENDAS</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a><router-link to="/blog">BLOG</router-link></a>
             </li>
           </ul>
 
@@ -117,5 +99,19 @@ nav {
   nav div a img {
     width: 150px;
   }
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Poppins';
+  align-content: center;
+  color: var(--hueso);
+}
+nav-item{
+  margin-left: 100px;
+}
+navbar-nav{
+  justify-content: center;
+  align-content: center;
 }
 </style>
