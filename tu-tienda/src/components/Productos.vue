@@ -20,7 +20,7 @@ export default {
   name: "Productos",
 };
 </script>
-<style>
+<style scoped>
 :root {
   --green: #2f7a2c;
   --backgroud: #faf7ef;

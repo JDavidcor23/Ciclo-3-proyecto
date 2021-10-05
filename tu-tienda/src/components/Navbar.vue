@@ -82,7 +82,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 export default {
   name: "Navbar",
 };

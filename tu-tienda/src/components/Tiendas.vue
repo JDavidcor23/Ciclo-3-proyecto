@@ -48,7 +48,7 @@
 <script>
 
 </script>
-<style>
+<style scope>
     :root {
   --green: #2f7a2c;
   --backgroud: #faf7ef;

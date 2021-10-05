@@ -49,7 +49,7 @@
 <script>
 
 </script>
-<style>
+<style scope>
     :root {
   --hueso: #faf7ee;
   --verde: #2f7a2c;

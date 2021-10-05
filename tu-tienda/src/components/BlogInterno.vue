@@ -52,7 +52,7 @@
   </div>
 </template>
 
-<style>
+<style scope>
 
 :root {
   --green: #2f7a2c;

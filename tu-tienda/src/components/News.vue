@@ -76,7 +76,7 @@
 
 
 
-<script>
+<script scope>
 export default {
   name: "News",
 };
