@@ -5,7 +5,7 @@
 
 Tu tienda cercana es una aplicación web que permite conectar a las pequeñas empresas de alimentos con los compradores locales y conocer los precios y los productos que estan ofreciendo actualmente.
 
-## ¿Qué skils aprendí en este desarrollo?
+## ¿Qué skills aprendí en este desarrollo?
 
 ##### 1.Metodolgia Scrum
 Es una metodología ágil que nos permite trabajar en un proyecto colaborativamente para la obtención de un objetivo mutuo en un tiempo reducido.
