@@ -1,6 +1,6 @@
 # ¿Qué es Tu Tienda Cercana?
 
-:tw-1f345: :tw-1f34c: :tw-1f34e: :tw-1f603:
+
 ![image](https://user-images.githubusercontent.com/72902196/137778743-58deef12-707e-40cf-9f83-9d632062dd11.png)
 
 Tu tienda cercana es una aplicación web que permite conectar a las pequeñas empresas de alimentos con los compradores locales y conocer los precios y los productos que estan ofreciendo actualmente.
